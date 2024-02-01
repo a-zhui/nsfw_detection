@@ -20,9 +20,9 @@
 git clone https://github.com/a-zhui/nsfw_detection
 #下载模型文件 模型文件较大（2.6G）
 cd nsfw_detection #进入项目根目录
+apt-get install git-lfs  #模型太大，以至于git仓库容纳不了。所以用git-lfs下载大文件
 git lfs install
 git clone https://huggingface.co/Falconsai/nsfw_image_detection
-
 ```
 
 ```bash
