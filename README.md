@@ -1,9 +1,13 @@
-# 人脸自动贴国旗
-> 使用opencv + dilb,通过dilb获取人脸关键点，然后简单的图像处理实现在右脸上贴国旗，刚好配合gradio写一个简单的demo
+# NSFW检测 （色情检测）
+> 使用huggingface上的nsfw模型，对 NSFW（工作不安全）图像进行分类。使其适合过滤各种应用程序中的露骨或不当内容。
 > 
-> ![img.png](images/img.png) 
+> ![image.png](images/image.png) 
 > 
-> [博客地址](https://blog.csdn.net/weixin_43810267/article/details/132885775)
+> [huggingface地址](https://huggingface.co/Falconsai/nsfw_image_detection)
+> 
+> 在Falconsai/nsfw_image_detection的基础上将其封装成api，并用gradio编写了一个简单的测试界面
+> 
+> api 测试详见项目api_test.py文件
 
 
 ## 使用方式一：python虚拟环境
